@@ -1,0 +1,23 @@
+# Power BI temporary and backup files
+*.pbi
+*.pbidesktop
+*.pbix.lock
+~$*.*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Python and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+*.key
